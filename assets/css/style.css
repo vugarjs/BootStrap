@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.headd{
+    display: flex;
+    justify-content: space-around;
+}
+
+html,
+body {
+    overflow-x: hidden; 
+    width: 100%; 
+    position: relative; 
+}
+
+
+#site-title {
+    font-family: "Plus Jakarta Sans";
+    position: relative;
+    color: rgb(30, 48, 243);
+    left: 17%;
+    font-size: 20px;
+    top: 20px;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+
+    margin-top: 10%;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 17%;
+}
+
+.navitem a {
+    color: #555555;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.main-left-up {
+    width: 50%; 
+    margin-top: 0;
+    left: 0; 
+}
+
+#main-title1 {
+    display: flex;
+    left: 30px;
+    font-size: 30px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.main-desing-title {
+    display: flex;
+    background: linear-gradient(90deg, #5b21b6 0%, #db2777 100%);
+    height: 20px;
+    border-radius: 5px;
+    max-width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title-desing {
+    font-size: 12px;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+}
+
+#main-title2 {
+    font-size: 44px;
+    background: linear-gradient(90deg, #5b21b6 0%, #db2777 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Plus Jakarta Sans";
+}
+
+#main-photo {
+    width: 75%;
+    height: auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    width: 85%;
+    margin: 40px auto 0 auto;
+}
+.main-right {
+    width: 42%;
+    height: auto;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    border-radius: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+    position: static;
+}
+
+#main-left-resume {
+    padding: 10px 20px;
+    width: max-content;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 50px;
+    background: #1e30f3;
+    color: white;
+    border: none;
+    position: relative;
+    left: 17%;
+    top: 100px;
+    font-family: "Plus Jakarta Sans";
+}
+
+#main-left-project {
+    font-size: 16px;
+    width: 20%;
+    background: white;
+    border-radius: 5px;
+    height: 50px;
+    border-width: 1px;
+    position: relative;
+    left: 18%;
+    top: 100px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.main-down-container {
+    background: rgb(248, 249, 250);
+    width: 100%; 
+
+    padding: 40px 20px;
+    position: relative;
+}
+#abouth1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(
+        315deg,
+        #1e30f3 0%,
+        #e21e80 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    padding-bottom: 20px;
+    
+    font-family: "Plus Jakarta Sans";
+}
+
+.footer-main {
+
+    font-size: 13px;
+    font-family: "Plus Jakarta Sans";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.main-down-about-media{
+    display: flex; 
+    justify-content: center;
+}
+#twitter,
+#linkedin,
+#github {
+    background: -webkit-linear-gradient(
+        315deg,
+        #1e30f3 0%,
+        #e21e80 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-right: 10px;
+}
+
+#aboutp1{
+    display: flex;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans";
+    justify-content: center;
+}
+#aboutp2{
+    display: flex;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans";
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#footercopy {
+    display: flex;
+}
+
+.footer-left li {
+    display: flex;
+    gap: 10%;
+    position: relative;
+    text-decoration: underline;
+    list-style: none;
+}
+
+.footer-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
